@@ -1,18 +1,18 @@
 # Přehled chemických prvků
 
-## Sc (Scandium)
-- Protonové číslo: 21
-- Relativní atomová hmotnost: 44.956
+## Ti (Titanium)
+- Protonové číslo: 22
+- Relativní atomová hmotnost: 47.867
 
-## Y (Yttrium)
-- Protonové číslo: 39
-- Relativní atomová hmotnost: 88.906
+## Zr (Zirconium)
+- Protonové číslo: 40
+- Relativní atomová hmotnost: 91.224
 
-## La (Lanthanum)
-- Protonové číslo: 57
-- Relativní atomová hmotnost: 138.905
+## Hf (Hafnium)
+- Protonové číslo: 72
+- Relativní atomová hmotnost: 178.49
 
-## Ac (Actinium)
-- Protonové číslo: 89
-- Relativní atomová hmotnost: 227
+## Rf (Rutherfordium)
+- Protonové číslo: 104
+- Relativní atomová hmotnost: 261
 

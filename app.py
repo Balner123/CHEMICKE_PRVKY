@@ -35,9 +35,9 @@ def display_menu():
     1. Vyhledávání prvků
     2. Zobrazit vlastnosti prvku
     3. Výpočet průměrné atomové hmotnosti
-    4. Generovat HTML soubor
-    5. Exportovat data do JSON
-    6. Generovat Markdown přehled
+    4. Generovat HTML soubor (přehled prvků)
+    5. Exportovat data do JSON (vybrané prvky)
+    6. Generovat Markdown přehled (skupina prvků)
     0. Ukončit
     \n===================================================\n
     """
