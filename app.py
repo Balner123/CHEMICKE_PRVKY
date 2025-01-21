@@ -189,6 +189,8 @@ def main():
             break
         else:
             print("\nNeplatná volba, zkuste to znovu.\n")
+        
+        input("Stiskněte Enter pro pokračování...")
 
 if __name__ == "__main__":
     main()
