@@ -47,14 +47,17 @@ def display_menu():
 
 def search_element(elements, groups, criterion, value):
     """Vyhledá prvek na základě daného kritéria a vrátí jeho vlastnosti."""
-    for element in elements:
-        if element.get(criterion) == value:
-            print("\n--- Výsledek hledání ---")
+    if criterion not in elements[0].keys():
+        print("\nNeplatné kritérium pro vyhledávání.\n")
+    else:
+        for element in elements:
+            if element.get(criterion) == value:
+                print("\n--- Výsledek hledání ---")
             if not element.get("Group"):
                 element["Group"] = find_group(groups, element["Symbol"])
             return element
-    print("\nPrvek nebyl nalezen.\n")
-    return {}
+            print("\nPrvek nebyl nalezen.\n")
+            return {}
 
 def find_group(groups, symbol):
     """Najde skupinu prvku podle jeho symbolu."""
