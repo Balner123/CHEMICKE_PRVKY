@@ -149,7 +149,7 @@ def main():
         choice = display_menu()
         
         if choice == '1':  # Vyhledávání prvků
-            criterion = input("Zadejte kritérium (Symbol, Element, AtomicNumber, Group, Period): ")
+            criterion = input("Zadejte kritérium (Symbol, Element (name), AtomicNumber, Group, Period): ")
             value = input(f"Zadejte hodnotu pro {criterion}: ")
             element = search_element(elements, groups, criterion, value)
             display_element(element)
