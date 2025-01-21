@@ -103,7 +103,8 @@ def calculate_average_mass(elements, group=None, period=None):
 # Generování výstupních souborů
 def generate_html(elements, file_path="periodic_table.html"):
     """Vygeneruje HTML tabulku s přehledem všech prvků."""
-    html_content = "<html>\n<head></head><body>\n<h1>Periodic Table of Elements</h1>\n<table border='1'>\n<tr>\n<th>Značka</th>\n<th>Název</th>\n<th>Protonové číslo</th>\n</tr>\n"
+    html_content = "<html>\n<meta charset='UTF-8'>\n<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n<title>Periodic Table of Elements</title>\n<body>\n<h1>Periodic Table of Elements</h1>\n<table border='1'>\n<tr>\n<th>Značka</th>\n<th>Název</th>\n<th>Protonové číslo</th>\n</tr>\n"
+    
     for element in elements:
         html_content += f"<tr>\n<td>{element['Symbol']}</td>\n<td>{element['Element']}</td>\n<td>{element['AtomicNumber']}</td>\n</tr>"
     html_content += "</table></body></html>"
